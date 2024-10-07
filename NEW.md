@@ -17,9 +17,37 @@
           <li>
             빌드 세팅에서 scenes 추가
           </li>
-            <li> 
-     플랫폼을 안드로이드로 변경 
-  </li> 
+          <li> 
+             플랫폼을 안드로이드로 변경 
+          </li> 
+          <li> 
+           Export Project 체크 후
+            Compression Method는 [L74HC] 선택
+          </li> 
+          <li> 
+             플랫폼 ios로 변경
+          </li> 
+          <li> 
+           안드로이드와 동일하게 
+            Compression Method는 [L74HC] 선택
+          </li> 
+          <li> 
+            현재 세팅 창의 좌하단, Player Settings로 이동
+          </li> 
+          <li> 
+            <p>
+            Android → Other Settings → Configuration → Scripting Backend → IL2CPP 선택
+            <p/>
+            <p>
+                Target Architectures → ARMv7과 ARM64 체크
+            </p>
+          </li>
+          <li> 
+            iOS → Other Settings → Configuration → Scripting Backend → IL2CPP 확인
+          </li> 
+          <li>
+            Target SDK → Device SDK 선택
+          </li>
         </ul>
   </li> 
 </ul>
